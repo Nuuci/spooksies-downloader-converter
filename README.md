@@ -39,6 +39,9 @@ Configuration
 All settings are stored in:
 Documents/Spooksies/
 
+<img width="1813" height="1162" alt="image" src="https://github.com/user-attachments/assets/f65e8d5a-59d3-41c9-894e-a4f3368701d3" />
+
+
 config.json — app settings
 cookies.txt — place your cookies file here
 
