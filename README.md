@@ -1,33 +1,51 @@
-Spooksies Downloader/ConverterA local desktop application for downloading media with gallery-dl and converting M4V files to MP4 using FFmpeg.No file size or count limits. All processing happens on your computer.FeaturesDownload
-Download images and videos from supported sites using gallery-dl
-Custom output folder
-Optional cookies file for authenticated sites
+Spooksies Downloader/Converter
+Local desktop app for downloading media with gallery-dl and converting M4V files to MP4 with FFmpeg.
+
+Features
+Download
+
+Download images and videos using gallery-dl
+Choose any output folder
+Optional cookies support for sites that require login
 Live output log
+
 Convert
-Convert individual M4V files or entire folders (including subfolders)
-Fast remux (stream copy) or re-encode for compatibility
-Optional overwrite of existing MP4s
-Optional deletion of original M4V after successful conversion
-Progress bar and conversion log
-Test FFmpeg button to verify the executable path
+
+Convert single M4V files or entire folders (with subfolders)
+Fast remux or full re-encode
+Option to overwrite existing MP4s
+Option to delete original M4V after successful conversion
+Progress bar and log
+Test FFmpeg button
+
 Requirements
-Python 3 (Tkinter is included with standard Windows installs)
+
+Python 3
 FFmpeg
 gallery-dl (for downloads)
-Installation & Usage
-Download 
-Double-click the file to launch the application
-The .pyw version runs without a console window.ConfigurationSettings and cookies are stored in:textDocuments/Spooksies/
-├── config.json
-└── cookies.txtThis folder is created automatically on first launch.CookiesFor sites that require authentication:
-Export cookies from your browser as a Netscape-format cookies.txt file
-Place the file at Documents/Spooksies/cookies.txt, or select it inside the app
-FFmpeg SetupIf FFmpeg is not detected automatically:
-Open the Convert tab
+
+How to Run
+Download  and double-click it.
+
+Configuration
+All settings are stored in:
+Documents/Spooksies/
+
+config.json — app settings
+cookies.txt — place your cookies file here
+
+Setting the FFmpeg Path
+If FFmpeg is not found automatically:
+
+Go to the Convert tab
 Click Browse next to the FFmpeg path field
 Select your ffmpeg.exe
-Click Test FFmpeg to confirm it works
-The path is saved for future use.Notes
-Leaving the output folder empty places converted MP4s in the same directory as the source files
-Fast remux is recommended for most M4V to MP4 conversions
-Original M4V files are only deleted when the option is explicitly enabled
+Click Test FFmpeg
+
+The path is remembered.
+
+Notes
+
+Leave the output folder empty to save MP4s next to the original files.
+Fast remux is recommended for most conversions.
+Original files are only deleted if you enable the option.
