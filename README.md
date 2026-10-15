@@ -1,62 +1,108 @@
-Spooksies Downloader/Converter
-Local desktop app for downloading media with gallery-dl and converting M4V files to MP4 with FFmpeg.
+# Spooksies Downloader/Converter
 
-Features
-Download
+Local desktop app for downloading images & videos with **gallery-dl** and converting **M4V → MP4** with **FFmpeg**.
 
-Download images and videos using gallery-dl
-Choose any output folder
-Optional cookies support for sites that require login
-Live output log
+![Python](https://img.shields.io/badge/Python-3-blue)
+![Platform](https://img.shields.io/badge/Platform-Windows-lightgrey)
+![License](https://img.shields.io/badge/License-MIT-green)
 
-<img width="796" height="675" alt="image" src="https://github.com/user-attachments/assets/ddbfec24-532c-445e-80b5-41ca8e143cb6" />
+No file size or count limits. Everything runs locally on your computer.
 
+---
 
+## ✨ Features
 
-Convert
+### Download (gallery-dl)
+- Paste a link and choose a save folder
+- Optional cookies file for sites that need login
+- Live output log
+- Uses the command: `gallery-dl -d "YOUR FOLDER" "LINK"`
 
-Convert single M4V files or entire folders (with subfolders)
-Fast remux or full re-encode
-Option to overwrite existing MP4s
-Option to delete original M4V after successful conversion
-Progress bar and log
-Test FFmpeg button
+### Convert (M4V → MP4)
+- Select individual files or entire folders (with subfolders)
+- Fast remux (copy streams) or re-encode for maximum compatibility
+- Optional: overwrite existing MP4s
+- Optional: delete original M4V after successful conversion
+- Progress bar + conversion log
+- **Test FFmpeg** button to verify your path
 
-<img width="901" height="746" alt="image" src="https://github.com/user-attachments/assets/dc5f9703-028b-4ab3-bf51-bca5482f5d02" />
+---
 
+## 📋 Requirements
 
+- **Python 3** (Tkinter is included with most Windows installs)
+- **FFmpeg** (or point the app at your `ffmpeg.exe`)
+- **gallery-dl** installed and on your PATH (for downloads)
 
-Requirements
+---
 
-Python 3
-FFmpeg
-gallery-dl (for downloads)
+## How to Download & Run
 
-How to Run
-Download  and double-click it.
+1. Click the green **Code** button at the top right of this repo
+2. Click **Download ZIP**
+3. Unzip the downloaded file
+4. Open the unzipped folder and find `spooksies_downloader_converter.pyw`
+5. Double-click it to run the app
 
-Configuration
+The `.pyw` file runs without a console window.
+
+---
+
+## ⚙️ Config & Cookies
+
 All settings are stored in:
+
+```
 Documents/Spooksies/
+├── config.json      ← app settings (auto-created)
+└── cookies.txt      ← put your cookies here
+```
 
-<img width="1813" height="1162" alt="image" src="https://github.com/user-attachments/assets/f65e8d5a-59d3-41c9-894e-a4f3368701d3" />
+The folder is created automatically on first launch.
 
+### Adding Cookies
 
-config.json — app settings
-cookies.txt — place your cookies file here
+For sites that require login (Instagram, Twitter/X, Patreon, etc.):
 
-Setting the FFmpeg Path
-If FFmpeg is not found automatically:
+1. Export cookies from your browser as a Netscape `cookies.txt` file  
+   (browser extension: *Get cookies.txt LOCALLY* or similar)
+2. Save it as `Documents/Spooksies/cookies.txt`  
+   **or** browse to it inside the app
 
-Go to the Convert tab
-Click Browse next to the FFmpeg path field
-Select your ffmpeg.exe
-Click Test FFmpeg
+---
 
-The path is remembered.
+## 🔧 FFmpeg Path
 
-Notes
+If the app doesn’t find FFmpeg automatically:
 
-Leave the output folder empty to save MP4s next to the original files.
-Fast remux is recommended for most conversions.
-Original files are only deleted if you enable the option.
+1. Go to the **Convert** tab
+2. Click **Browse…** next to **FFmpeg path**
+3. Select your `ffmpeg.exe`
+4. Click **Test FFmpeg** to confirm it works
+
+The path is saved and remembered for next time.
+
+---
+
+## 💡 Tips
+
+- Leave the **Output folder** empty on the Convert tab to place MP4s next to the original files.
+- Use **Fast remux** for speed (usually perfect for M4V → MP4).
+- Use **Re-encode** only when you need maximum player compatibility.
+- Original M4V files are only deleted if you check the box.
+
+---
+
+## 📁 Project Files
+
+| File | Description |
+|------|-------------|
+| `spooksies_downloader_converter.pyw` | Main app — double-click to run (no console) |
+| `spooksies_downloader_converter.py` | Same app (shows console if preferred) |
+| `README.md` | This file |
+
+---
+
+## 📜 License
+
+MIT — free to use and modify.
