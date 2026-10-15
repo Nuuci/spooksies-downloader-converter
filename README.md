@@ -9,6 +9,10 @@ Choose any output folder
 Optional cookies support for sites that require login
 Live output log
 
+<img width="796" height="675" alt="image" src="https://github.com/user-attachments/assets/ddbfec24-532c-445e-80b5-41ca8e143cb6" />
+
+
+
 Convert
 
 Convert single M4V files or entire folders (with subfolders)
@@ -17,6 +21,10 @@ Option to overwrite existing MP4s
 Option to delete original M4V after successful conversion
 Progress bar and log
 Test FFmpeg button
+
+<img width="901" height="746" alt="image" src="https://github.com/user-attachments/assets/dc5f9703-028b-4ab3-bf51-bca5482f5d02" />
+
+
 
 Requirements
 
