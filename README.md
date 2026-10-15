@@ -18,6 +18,10 @@ No file size or count limits. Everything runs locally on your computer.
 - Live output log
 - Uses the command: `gallery-dl -d "YOUR FOLDER" "LINK"`
 
+  <img width="893" height="781" alt="image" src="https://github.com/user-attachments/assets/66fa6a71-9fc5-40c1-86f2-20044742775b" />
+
+
+
 ### Convert (M4V → MP4)
 - Select individual files or entire folders (with subfolders)
 - Fast remux (copy streams) or re-encode for maximum compatibility
@@ -25,6 +29,9 @@ No file size or count limits. Everything runs locally on your computer.
 - Optional: delete original M4V after successful conversion
 - Progress bar + conversion log
 - **Test FFmpeg** button to verify your path
+
+  <img width="893" height="778" alt="image" src="https://github.com/user-attachments/assets/b763c1d7-b2bb-4cc0-860a-c2a5e8f9b745" />
+
 
 ---
 
