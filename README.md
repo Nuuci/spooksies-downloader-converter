@@ -30,7 +30,8 @@ No file size or count limits. Everything runs locally on your computer.
 - Progress bar + conversion log
 - **Test FFmpeg** button to verify your path
 
-  <img width="893" height="778" alt="image" src="https://github.com/user-attachments/assets/b763c1d7-b2bb-4cc0-860a-c2a5e8f9b745" />
+ <img width="874" height="797" alt="image" src="https://github.com/user-attachments/assets/45a2cea4-abd2-4522-ad4e-89e38aa822c0" />
+
 
 
 ---
