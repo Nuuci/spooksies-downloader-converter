@@ -1,6 +1,6 @@
 # Spooksies Downloader/Converter
 
-Local desktop app for downloading images & videos with **gallery-dl** and converting **M4V → MP4** with **FFmpeg**.
+Local desktop app for downloading images & videos with **gallery-dl** and converting converting files with **FFmpeg**.
 
 ![Python](https://img.shields.io/badge/Python-3-blue)
 ![Platform](https://img.shields.io/badge/Platform-Windows-lightgrey)
